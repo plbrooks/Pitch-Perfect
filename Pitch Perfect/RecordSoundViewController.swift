@@ -28,9 +28,9 @@ class RecordSoundViewController: UIViewController,AVAudioRecorderDelegate {
     let InProcess = "Recording In Process"
     let recordingPaused = "Recording Paused"
     
-    // actions
-    
-    // set up UI - what shows up and what does not once the microphone button pressed
+    /********************************************************************************************************
+    * set up UI - what shows up and what does not once the microphone button pressed                        *
+    ********************************************************************************************************/
     @IBAction func startRecording(sender: UIButton) {
         // change text, disable record button
         startRecordingButton.enabled = false
