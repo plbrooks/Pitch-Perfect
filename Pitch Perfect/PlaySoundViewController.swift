@@ -38,6 +38,9 @@ class PlaySoundViewController: UIViewController {
         playAudioWithVariablePitch(-1000)
     }
     
+    /********************************************************************************************************
+     * create an echo by playing sound twice including at a delay                                           *
+     ********************************************************************************************************/
     @IBAction func PlayEcho(sender: UIButton) {
         // play audio
         stopAndResetAudio()
